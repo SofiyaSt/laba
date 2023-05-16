@@ -35,7 +35,8 @@ namespace ConsoleApp1
             else if (oper == '*')
             {
                 total = a * b;
-                Console.WriteLine("Умножение " + a + " на " + b + " равно " + total + ".");
+                Console.WriteLine(a + "*" + b + "=" + total + ".");
+                Console.WriteLine("Умножение завершено.");
             }
 
             else if (oper == '/')
