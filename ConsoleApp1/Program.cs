@@ -11,6 +11,8 @@ namespace ConsoleApp1
             double total;
             char oper;
 
+            Console.WriteLine("Добро пожаловать в ваш ленивый калькулятор!");
+
             Console.WriteLine("Введите первое число:");
             a = Convert.ToDouble(Console.ReadLine());
 
