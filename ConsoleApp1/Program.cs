@@ -24,7 +24,6 @@ namespace ConsoleApp1
             {
                 total = a + b;
                 Console.WriteLine(a + "+" + b + "=" + total + ".");
-                Console.WriteLine("Вы сложили числа на калькуляторе!");
             }
 
             else if (oper == '-')
