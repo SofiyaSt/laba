@@ -23,7 +23,7 @@ namespace ConsoleApp1
             if (oper == '+')
             {
                 total = a + b;
-                Console.WriteLine("Cумма " + a + " и " + b + " равна " + total + ".");
+                Console.WriteLine(a + "+" + b + "=" + total + ".");
             }
 
             else if (oper == '-')
