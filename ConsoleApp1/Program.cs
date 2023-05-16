@@ -13,7 +13,6 @@ namespace ConsoleApp1
 
             Console.WriteLine("Добро пожаловать в ваш ленивый калькулятор!");
 
-            progrr:
             Console.WriteLine("Введите первое число:");
             a = Convert.ToDouble(Console.ReadLine());
 
