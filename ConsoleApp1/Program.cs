@@ -25,13 +25,14 @@ namespace ConsoleApp1
             if (oper == '+')
             {
                 total = a + b;
-                Console.WriteLine("Cумма " + a + " и " + b + " равна " + total + ".");
+                Console.WriteLine(a + "+" + b + "=" + total + ".");
+                Console.WriteLine("Вы сложили числа на калькуляторе!");
             }
 
             else if (oper == '-')
             {
                 total = a - b;
-                Console.WriteLine("Разность " + a + " и " + b + " равна " + total + ".");
+                Console.WriteLine(a + "-" + b + "=" + total + ".");
             }
 
             else if (oper == '*')
@@ -51,6 +52,11 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Неизвестный оператор.");
             }
+
+            Console.WriteLine("\nЖелаете продолжить? Введите YES/NO");
+            string rep = Console.ReadLine();
+            if (rep == "YES") goto progrr;
+            if (rep == "NO") return;
         }
     }
 }
