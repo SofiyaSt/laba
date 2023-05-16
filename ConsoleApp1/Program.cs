@@ -11,6 +11,9 @@ namespace ConsoleApp1
             double total;
             char oper;
 
+            Console.WriteLine("Добро пожаловать в ваш ленивый калькулятор!");
+
+            progrr:
             Console.WriteLine("Введите первое число:");
             a = Convert.ToDouble(Console.ReadLine());
 
@@ -50,6 +53,11 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Неизвестный оператор.");
             }
+
+            Console.WriteLine("\nЖелаете продолжить? Введите YES/NO");
+            string rep = Console.ReadLine();
+            if (rep == "YES") goto progrr;
+            if (rep == "NO") return;
         }
     }
 }
