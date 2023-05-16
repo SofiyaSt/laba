@@ -41,7 +41,8 @@ namespace ConsoleApp1
             else if (oper == '/')
             {
                 total = a / b;
-                Console.WriteLine("Деление " + a + " на " + b + " равно " + total + ".");
+                Console.WriteLine(a + "/" + b + "=" + total + ".");
+                Console.WriteLine("Деление завершено");
             }
             else
             {
